@@ -2,9 +2,9 @@
   background:
     linear-gradient(
       90deg,
-      rgba(11, 11, 11, 0.98) 0%,
-      rgba(11, 11, 11, 0.88) 45%,
-      rgba(11, 11, 11, 0.3) 100%
+   rgba(11, 11, 11, 0.92) 0%,
+rgba(11, 11, 11, 0.72) 45%,
+rgba(11, 11, 11, 0.45) 100%
     ),
     url('https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1400')
       center right / cover no-repeat;
@@ -21,4 +21,12 @@ a {
 
 #carrito {
  scroll-margin-top: 90px;
+}
+
+/* Ajustes para celulares */
+@media (max-width: 768px) {
+  .hero-section {
+    background-position: 65% center;
+    background-size: cover;
+  }
 }

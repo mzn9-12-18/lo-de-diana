@@ -53,7 +53,7 @@ function App() {
     if (cart.length === 0) return
 
     // Reemplazar por el WhatsApp real de Diana.
-    const whatsappNumber = '5493757338216'
+    const whatsappNumber = '5493757338316'
 
     if (!whatsappNumber) {
       alert('Falta configurar el WhatsApp del negocio.')
